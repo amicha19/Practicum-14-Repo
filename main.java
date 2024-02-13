@@ -13,16 +13,19 @@ public class Main {
         // declares an array of size 6 initialized
         // with the provided values
         int[] nums = {5, 24, 36, 54, 65, 72};
-     
+
         // provide an enhanced for loop that adds up all
         // values in array nums with the result in variable sum
         int sum = 0;
 
-        // enhanced for loop (complete)
-
+        // enhanced for loop to add up all values in nums
+        for (int num : nums) {
+            sum += num;
+        }
 
         // display results
         System.out.println("Sum = " + sum);
 
     }
 }
+
